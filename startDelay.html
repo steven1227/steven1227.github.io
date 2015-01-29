@@ -43,27 +43,27 @@ d3.csv("Results.csv", function(error, data) {
     d.skipDelay= +d.skipDelay;
 
     
-    if(d.skipDelay<100)
+    if(d.startDelay<100)
     {
       counter1[0][d.experimentID-1]=counter1[0][d.experimentID-1]+1;
     }
-    else if(d.skipDelay<1000)
+    else if(d.startDelay<1000)
     {
       counter1[1][d.experimentID-1]=counter1[1][d.experimentID-1]+1;
     }
-    else if(d.skipDelay<5000)
+    else if(d.startDelay<5000)
     {
       counter1[2][d.experimentID-1]=counter1[2][d.experimentID-1]+1;
     }
-    else if(d.skipDelay<10000)
+    else if(d.startDelay<10000)
     {
       counter1[3][d.experimentID-1]=counter1[3][d.experimentID-1]+1;
     }
-    else if(d.skipDelay<20000)
+    else if(d.startDelay<20000)
     {
       counter1[4][d.experimentID-1]=counter1[4][d.experimentID-1]+1;
     }
-    else if(d.skipDelay>=20000) 
+    else if(d.startDelay>=20000) 
     {
       counter1[5][d.experimentID-1]=counter1[5][d.experimentID-1]+1;
     }
@@ -105,15 +105,16 @@ var svg = d3.select("body").append("svg")
     .attr("height", height + margin.top + margin.bottom+100)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
 svg.append("svg:image")
-  .attr("xlink:href", "https://yuq.me/users/42/425/Que8Tgn0IF.png")
+	.attr("xlink:href", "https://yuq.me/users/42/425/Que8Tgn0IF.png")
     .attr("width", 180)
     .attr("height", 180)
     .attr("x", 950)
     .attr("y",280);
-var word = "startDelay";
+var word = "skipDelay";
  svg.append("a")
- 	  .attr("xlink:href", "startDelay.html")
+ 	.attr("xlink:href", "skipDelay.html")
     .append("rect")  
     .attr("x", 980)
     .attr("y", 250)
@@ -122,6 +123,16 @@ var word = "startDelay";
     .style("fill", "dadaeb")
     .attr("rx", 10)
     .attr("ry", 10);
+
+ svg.append("text")
+  	.attr("x", 1020)
+    .attr("y", 240)
+    .style("fill", "grey")
+    .style("font-size", "15px")
+    .attr("dy", ".35em")
+    .attr("text-anchor", "middle")
+    .text("To see the skipDelay");
+
   svg.append("text")
   	.attr("x", 1020)
     .attr("y", 265)
@@ -132,14 +143,6 @@ var word = "startDelay";
     .style("pointer-events", "none")
     .text(word);
 
- svg.append("text")
-    .attr("x", 1020)
-    .attr("y", 240)
-    .style("fill", "grey")
-    .style("font-size", "15px")
-    .attr("dy", ".35em")
-    .attr("text-anchor", "middle")
-    .text("To see the startDelay");
 
 svg.append("text")
 	.attr("x","480")
@@ -160,7 +163,7 @@ svg.append("rect")
 	.attr("y","40")
 	.style("font-size","12px")
 	.style("text-anchor","left")
-	.text("The skipDelay<100")
+	.text("The startDelay<100")
 svg.append("rect")
    .attr("x", 950)
    .attr("y", 52)
@@ -173,7 +176,7 @@ svg.append("rect")
 	.attr("y","60")
 	.style("font-size","12px")
 	.style("text-anchor","left")
-	.text("The 100<skipDelay<1000")
+	.text("The 100<startDelay<1000")
 svg.append("rect")
    .attr("x", 950)
    .attr("y", 72)
@@ -186,7 +189,7 @@ svg.append("rect")
 	.attr("y","80")
 	.style("font-size","12px")
 	.style("text-anchor","left")
-	.text("The 1000<skipDelay<5000")
+	.text("The 1000<startDelay<5000")
 svg.append("rect")
    .attr("x", 950)
    .attr("y", 92)
@@ -199,7 +202,7 @@ svg.append("rect")
 	.attr("y","100")
 	.style("font-size","12px")
 	.style("text-anchor","left")
-	.text("The 5000<skipDelay<10000")
+	.text("The 5000<startDelay<10000")
 svg.append("rect")
    .attr("x", 950)
    .attr("y", 112)
@@ -212,7 +215,7 @@ svg.append("rect")
 	.attr("y","120")
 	.style("font-size","12px")
 	.style("text-anchor","left")
-	.text("The 10000<skipDelay<20000")
+	.text("The 10000<startDelay<20000")
 svg.append("rect")
    .attr("x", 950)
    .attr("y", 132)
@@ -225,7 +228,7 @@ svg.append("rect")
 	.attr("y","140")
 	.style("font-size","12px")
 	.style("text-anchor","left")
-	.text("The skipDelay>20000")
+	.text("The startDelay>20000")
 
 
 var layer = svg.selectAll(".layer")
