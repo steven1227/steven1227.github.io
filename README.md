@@ -20,7 +20,7 @@ description: The description of the service
 View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
 
 ## Screenshot
-![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
+##![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
 
 ===
 
