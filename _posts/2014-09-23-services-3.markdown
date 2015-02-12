@@ -2,11 +2,8 @@
 layout: default
 img: phones.png
 category: Services
-title: Web Spider <br> Search Engine
+title: Web Crawl <br> Search Engine
 description: |
-  <p class="lead">This template features the 'Lato' font,
-  part of the <a target="_blank" href="http://www.google.com/fonts">Google
-  Web Font library</a>, as well as <a target="_blank"
-  href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+  <p class="lead">The Web crawling is a very instereting and powerful process to scan and search data from the internet. And when in search something, the page rank decide which one is the most suitable one for you</a>.</p>
 
 ---
