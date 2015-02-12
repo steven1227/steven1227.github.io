@@ -2,10 +2,10 @@
 layout: default
 img: dog.png
 category: Services
-title: GUI <br> Image processing <br>
-description:|
-<p class="lead">Interested in GUI design, such as the QT project, which can be used cross-platform in the Embedded System, or the Unity, which creates a lot of amazing games.<br>
-Image processing is a important real life application today. In the robot, it can be used to fulfill the 'eye' of robot to detect the road and object.</p>
+title: GUI <br> Image processing 
 
+description: |
+  <p class="lead">Interested in GUI design, such as the QT project, which can be used cross-platform in the Embedded System, or the Unity, which creates a lot of amazing games.<br>
+  Image processing is a important real life application today. In the robot, it can be used to fulfill the 'eye' of robot to detect the road and object.</p>
 
 ---
