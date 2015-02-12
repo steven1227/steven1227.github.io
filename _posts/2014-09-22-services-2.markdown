@@ -2,12 +2,9 @@
 layout: default
 img: dog.png
 category: Services
-title: GUI <br> 
-description: 
-  <p class="lead">Turn your 2D designs into high quality, 3D
-  product shots in seconds using free Photoshop actions by <a
-  target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit
-  their website to download some of their awesome, free photoshop
-  actions!</p>
+title: GUI <br> Image processing <br>
+description:| Interested in GUI design, such as the QT project, which can be used cross-platform in the Embedded System, or the Unity, which creates a lot of amazing games.<br>
+Image processing is a important real life application today. In the robot, it can be used to fulfill the 'eye' of robot to detect the road and object.
+  <p class="lead"></p>
 
 ---
