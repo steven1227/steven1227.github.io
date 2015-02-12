@@ -2,7 +2,7 @@
 layout: default
 img: ipad.png
 category: Services
-title: Embedded System Photo:<br>
+title: Embedded System :<br>
 description: |
   <p class="lead">A special thanks to <a target="_blank"
   href="http://join.deathtothestockphoto.com/">Death to the Stock
