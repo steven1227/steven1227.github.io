@@ -4,7 +4,7 @@
 
 url: http://iamstevenliu.com
 title: Steven's Personal Website
-email: rendong_liu@hotmaul.com
+email: rendong_liu@hotmail.com
 description: > # "Hi, This is a personal Blog belong to Rendong Liu. You can also call me Steven"
 
 # ----------------------- #
@@ -21,8 +21,8 @@ permalink: pretty
 
 social:
   - title: twitter
-    url: 
+    url: https://twitter.com/rendongliu
   - title: github
-    url: 
+    url: https://github.com/steven1227
   - title: linkedin
-    url: 
+    url: https://nl.linkedin.com/in/rendongliu
