@@ -2,10 +2,8 @@
 layout: default
 img: dog.png
 category: Services
-title: GUI <br> Image processing 
-
+title: Android Application<br> Web <br>
 description: |
-  <p class="lead">Interested in GUI design, such as the QT project, which can be used cross-platform in the Embedded System, or the Unity, which creates a lot of amazing games.<br><br>
-  Image processing is a important real life application today. In the robot, it can be used to fulfill the 'eye' of robot to detect the road and object.</p>
+  <p class="lead">Interested in Android Application developement, experienced some applications design in my spare time. Looking for cool idea and enough time to build my own application. <br><br> In addition, enjoying the design of web application, which can be used cross-platform in anywhere</p>
 
 ---

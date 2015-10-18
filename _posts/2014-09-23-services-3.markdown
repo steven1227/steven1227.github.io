@@ -2,8 +2,8 @@
 layout: default
 img: phones.png
 category: Services
-title: Web Crawl <br> Search Engine <br>
+title: Web Crawl <br> Data Analytics<br>
 description: |
-  <p class="lead">The Web crawling is a very instereting and powerful process to scan and search data from the internet. And when you search something, the Page Rank decides which one is the most suitable one for you</a>.</p>
+  <p class="lead">The Web crawling is a very instereting and powerful process to scan and search data from the internet. And when you search something, using analytics decides which one is the most suitable one for you</a>.</p>
 
 ---
