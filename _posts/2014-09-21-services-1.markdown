@@ -5,6 +5,6 @@ category: Services
 title: Embedded System & IOT  :<br>
 description: |
   <p class="lead">Controller in a car? Automatic pilot of a aircraft? A heart of robots? Embedded System is in everywhere! There will be more than 40 billion devices worldwide by 2020. 
-  <br>I am currently developing with embedded systems, especially for Internet of things, focus on distributed home energy management, which can change people's life</p>
+  <br><br>I am currently developing with embedded systems, especially for Internet of things, focus on distributed home energy management, which can change people's life in near future</p>
 
 ---
