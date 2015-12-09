@@ -42,7 +42,7 @@ d3.csv("Results.csv", function(error, data) {
     d.startDelay = +d.startDelay;
     d.skipDelay= +d.skipDelay;
 
-    
+
     if(d.startDelay<100)
     {
       counter1[0][d.experimentID-1]=counter1[0][d.experimentID-1]+1;
@@ -63,7 +63,7 @@ d3.csv("Results.csv", function(error, data) {
     {
       counter1[4][d.experimentID-1]=counter1[4][d.experimentID-1]+1;
     }
-    else if(d.startDelay>=20000) 
+    else if(d.startDelay>=20000)
     {
       counter1[5][d.experimentID-1]=counter1[5][d.experimentID-1]+1;
     }
@@ -112,7 +112,7 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 svg.append("svg:image")
-	.attr("xlink:href", "https://yuq.me/users/42/425/Que8Tgn0IF.png")
+	.attr("xlink:href", "Que8Tgn0IF.png")
     .attr("width", 180)
     .attr("height", 180)
     .attr("x", 950)
@@ -120,7 +120,7 @@ svg.append("svg:image")
 var word = "skipDelay";
  svg.append("a")
  	.attr("xlink:href", "skipDelay.html")
-    .append("rect")  
+    .append("rect")
     .attr("x", 980)
     .attr("y", 250)
     .attr("height", 30)
@@ -261,7 +261,7 @@ svg.append("g")
     .call(xAxis);
 
 d3.selectAll("input").on("change", change);
-    
+
 var timeout = setTimeout(function() {
   d3.select("input[value=\"grouped\"]").property("checked", true).each(change);
 }, 2000);
